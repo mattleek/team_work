@@ -4,11 +4,12 @@
         <article class="media content-section">
           <div class="media-body">
             <div class="article-metadata">
-              <a class="mr-2" href="#">Name: {{ post.name }}</a>
-              <small class="text-muted">Date: {{ post.date_posted }}</small>
+              <a class="mr-2" href="#">Artist: {{ post.artist }}</a>
+              <small class="text-muted">Posted by: {{ post.author }}</small>
             </div>
-            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
+            <h2><a class="article-title" href="https://www.youtube.com/watch?v=ZWUDia4JXBE" target="_blank"> Song: {{ post.title }}</a></h2>
+            <p class="article-content">{{ post.lyrics }}</p>
+            <small class="text-muted">Posted on: {{ post.date_posted|date:'d M y' }}</small>
           </div>
         </article>
     {% endfor %}
