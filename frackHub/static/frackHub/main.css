@@ -1,11 +1,15 @@
+.masthead{
+  background-size: cover;
+  min-height: 10vh;
+}
 body {
-  background: #fafafa;
-  color: #333333;
+  background: #e7b954;
+  color: #000000;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #272020;
 }
 
 ul {
@@ -13,7 +17,7 @@ ul {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #657b8b;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -37,7 +41,7 @@ ul {
 }
 
 .article-title {
-  color: #444444;
+  color: #580606;
 }
 
 a.article-title:hover {
