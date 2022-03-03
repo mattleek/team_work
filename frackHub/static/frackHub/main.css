@@ -5,7 +5,6 @@
 body {
   background: #e7b954;
   color: #000000;
-  margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,7 +16,7 @@ ul {
 }
 
 .bg-steel {
-  background-color: #657b8b;
+  background-color: #0057b7;
 }
 
 .site-header .navbar-nav .nav-link {
