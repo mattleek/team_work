@@ -12,5 +12,3 @@ def home(request):
 def about(request):
     return render(request, 'frackHub/about.html')
 
-def userlogin(request):
-    return render(request, 'register/login.html')

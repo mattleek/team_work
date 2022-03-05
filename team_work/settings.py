@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'frackHub.apps.FrackhubConfig',
+    'users.apps.UsersConfig',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -126,3 +128,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # config/settings.py
 LOGIN_REDIRECT_URL = '/'
+
+# if a user is not logged in and tries to views their profile, redirect them to log in page
+LOGIN_URL = 'login'
+
+# crispy form to use bootstap4
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
