@@ -1,10 +1,7 @@
-.masthead{
-  background-size: cover;
-  min-height: 10vh;
-}
 body {
   background: #e7b954;
   color: #000000;
+  margin-top: 0rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +18,7 @@ ul {
 
 .site-header .navbar-nav .nav-link {
   color: #cbd5db;
+  margin-top: 0rem;
 }
 
 .site-header .navbar-nav .nav-link:hover {
